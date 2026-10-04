@@ -41,11 +41,11 @@ The system integrates multiple distinct modules to provide a seamless platform f
 
 | Module | Contributor Email | Assigned Features & Responsibilities |
 | :--- | :--- | :--- |
-| **Judge Management and Evaluate Nominees** | `IT25101698@my.sliit.lk` | JWT authentication flow, role-based authorization (Admin/Judge/Voter), password hashing, and user profile management. |
-| **Nominee Management** | `IT25103592@my.sliit.lk` | Category CRUD operations, opening/closing date validations, nominee registration, status tracking, and image handling. |
-| **Secure Voting** | `IT25101515@my.sliit.lk` | Vote submission, single-vote-per-category enforcement, server-side window validation, and SQL Server application locks for duplicate protection. |
-| **Vote Counting & Winner Selection** | `IT25103395@my.sliit.lk` | Category CRUD operations, opening/closing date validations, nominee registration, status tracking, and image handling. |
-| **Results Management** | `IT25102508@my.sliit.lk` | Judge evaluation CRUD, scoring validation (1-10), Strategy/Factory pattern implementation for ranking, tie detection, and winner verification. |
+| **Judge Management and Evaluate Nominees** | `it25101698@my.sliit.lk` | JWT authentication flow, role-based authorization (Admin/Judge/Voter), password hashing, and user profile management. |
+| **Nominee Management** | `it25103592@my.sliit.lk` | Category CRUD operations, opening/closing date validations, nominee registration, status tracking, and image handling. |
+| **Secure Voting** | `it25101515@my.sliit.lk` | Vote submission, single-vote-per-category enforcement, server-side window validation, and SQL Server application locks for duplicate protection. |
+| **Vote Counting & Winner Selection** | `it25103395@my.sliit.lk` | Vote counting mechanics, score compilation, criteria evaluation, tie resolution logic, and automated/manual winner selection workflows. |
+| **Results Management** | `it25102508@my.sliit.lk` | Judge evaluation CRUD, scoring validation (1-10), Strategy/Factory pattern implementation for ranking, tie detection, and winner verification. |
 
 ---
 
