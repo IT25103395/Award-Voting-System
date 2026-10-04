@@ -10,44 +10,42 @@ The system integrates multiple distinct modules to provide a seamless platform f
 
 ## Project Overview & Tech Stack
 
-- **Frontend:** React, HTML, Tailwind CSS[cite: 1]
-- **Backend:** Node.js, Express.js[cite: 1]
-- **Database:** Microsoft SQL Server[cite: 1]
+- **Frontend:** React, HTML, Tailwind
+- **Backend:** Node.js, Express.js
+- **Database:** Microsoft SQL Server
 
 ---
+
 
 ## Core Features & Architecture
 
-- **Authentication & Authorization:** JWT authentication supporting Admin, Voter, and Judge roles[cite: 1].
-- **Category Management:** Full CRUD operations for award categories with Open Date and Close Date validations[cite: 1].
-- **Nominee Management:** CRUD operations for nominees with status tracking and image support[cite: 1].
+- **Authentication & Authorization:** JWT authentication supporting Admin, Voter, and Judge roles.
+- **Category Management:** Full CRUD operations for award categories with Open Date and Close Date validations.
+- **Nominee Management:** CRUD operations for nominees with status tracking and image support.
 - **Judge Management:** Secure Judge CRUD operations utilizing bcrypt password hashing[cite: 1].
 - **Voting System:** Vote creation, read/audit trails, and single-vote-per-category enforcement with server-side window validation[cite: 1].
-- **Concurrency Control:** Atomic duplicate-vote protection using SQL Server application locks[cite: 1].
+- **Concurrency Control:** Atomic duplicate-vote protection using SQL Server application locks.
 - **Evaluations:** Judge evaluation CRUD with 1-10 scoring validation and per-judge duplicate protection[cite: 1].
-- **Ranking & Analytics:** Vote totals, judge score averages, and deterministic ranking calculations[cite: 1].
+- **Ranking & Analytics:** Vote totals, judge score averages, and deterministic ranking calculations.
 - **Design Patterns:** 
-  - *Strategy Pattern* for flexible ranking calculations[cite: 1].
-  - *Factory Pattern* for selecting ranking strategies[cite: 1].
-  - *Decorator Pattern* for audited notifications[cite: 1].
-- **Winner Verification:** Tie detection, manual winner verification, and winner lifecycle management through award records[cite: 1].
+  - *Strategy Pattern* for flexible ranking calculations.
+  - *Factory Pattern* for selecting ranking strategies.
+  - *Decorator Pattern* for audited notifications.
+- **Winner Verification:** Tie detection, manual winner verification, and winner lifecycle management through award records.
 
 ---
+
 
 ## Team & Workload Distribution
 
 
 | Module | Contributor Email | Assigned Features & Responsibilities |
 | :--- | :--- | :--- |
-| **Authentication & User Management** | `it25100015@my.sliit.lk` | JWT authentication flow, role-based authorization (Admin/Judge/Voter), password hashing, and user profile management. |
-| **Category & Nominee Management** | `it25100234@my.sliit.lk` | Category CRUD operations, opening/closing date validations, nominee registration, status tracking, and image handling. |
-| **Voting & Concurrency Control** | `it25100618@my.sliit.lk` | Vote submission, single-vote-per-category enforcement, server-side window validation, and SQL Server application locks for duplicate protection. |
-| **Evaluation, Ranking & Winner Module** | `it25100999@my.sliit.lk` | Judge evaluation CRUD, scoring validation (1-10), Strategy/Factory pattern implementation for ranking, tie detection, and winner verification. |
+| **Judge Management and Evaluate Nominees** | `IT25101698@my.sliit.lk` | JWT authentication flow, role-based authorization (Admin/Judge/Voter), password hashing, and user profile management. |
+| **Nominee Management** | `IT25103592@my.sliit.lk` | Category CRUD operations, opening/closing date validations, nominee registration, status tracking, and image handling. |
+| **Secure Voting** | `IT25101515@my.sliit.lk` | Vote submission, single-vote-per-category enforcement, server-side window validation, and SQL Server application locks for duplicate protection. |
+| **Vote Counting & Winner Selection** | `IT25103395@my.sliit.lk` | Category CRUD operations, opening/closing date validations, nominee registration, status tracking, and image handling. |
+| **Results Management** | `IT25102508@my.sliit.lk` | Judge evaluation CRUD, scoring validation (1-10), Strategy/Factory pattern implementation for ranking, tie detection, and winner verification. |
 
 ---
 
-## Getting Started & Running the Project
-
-1. Clone the repository:
-   ```bash
-   git clone <your-repository-url>
